@@ -16,17 +16,26 @@
     padding-left: 15px;
 }
 .codeName {
-    height: 100px;
+    height: 27px;
+    border: 1px solid;
 }
 .profile_content {
+    float: left;
     padding-left: 15px;
 }
 ._column {
     color: white;
-    background: gray;
+    background: rgb(107, 107, 107);
+}
+._image {
+    padding: 50px;
+}
+._image img {
+    padding-left: 100px;
 }
 .sentences {
     padding-left: 15px;
+    margin: 0px;
     background: rgb(206, 224, 247);
 }
 .container_right img {
