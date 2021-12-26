@@ -1,17 +1,21 @@
-.my_image img {
-    width: 300px;
+.container_left {
     float: left;
 }
-.profile {
-    margin-left: 310;
-    height: 400px;
-    background: green;
+.my_image img {
+    width: 300px;
 }
-._title {
+.container_right {
+    float: left;
+    height: 400px;
+    background: rgb(0, 128, 94);
+}
+.profile {
     color: white;
     background: rgb(97, 97, 212);
+    margin-top: 0px;
 }
 .codeName {
+    clear: left;
     height: 100px;
     background: pink;
 }
