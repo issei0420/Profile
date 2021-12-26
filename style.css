@@ -13,8 +13,23 @@
     color: white;
     background: rgb(97, 97, 212);
     margin-top: 0px;
+    padding-left: 15px;
 }
 .codeName {
     height: 100px;
-    background: pink;
+}
+.profile_content {
+    padding-left: 15px;
+}
+._column {
+    color: white;
+    background: gray;
+}
+}
+.sentences {
+    padding-left: 15px;
+    background: rgb(206, 224, 247);
+}
+.container_right img {
+    width: 100px;
 }
