@@ -7,7 +7,6 @@
 .container_right {
     margin-left: 315px;
     height: 400px;
-    /* background: rgb(138, 155, 186); */
 }
 .container_right h2 {
     color: white;
@@ -19,13 +18,16 @@
     height: 27px;
     border: 1px solid;
 }
+.codeName span{
+    font-weight: bold;
+}
 .profile_content {
     float: left;
     padding-left: 15px;
 }
 ._column {
     color: white;
-    background: rgb(107, 107, 107);
+    background: rgb(75, 75, 75);
 }
 ._image {
     padding: 50px;
