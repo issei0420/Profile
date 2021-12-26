@@ -9,9 +9,6 @@
     color: white;
     background: rgb(97, 97, 212);
 }
-.myName_column {
-    float: left; 
-}
-.birthPlace_column {
-    float: clear;
-}
+/* .birthPlace_column {
+    display: block;
+} */
