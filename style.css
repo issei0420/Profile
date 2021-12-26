@@ -1,0 +1,11 @@
+.my_image img {
+    width: 300px;
+    float: left;
+}
+._contents {
+    margin-left: 310;
+}
+.profile_title {
+    color: white;
+    background: rgb(97, 97, 212);
+}
