@@ -2,20 +2,19 @@
     float: left;
 }
 .my_image img {
-    width: 300px;
+    width: 305px;
 }
 .container_right {
-    float: left;
+    margin-left: 315px;
     height: 400px;
-    background: rgb(0, 128, 94);
+    /* background: rgb(138, 155, 186); */
 }
-.profile {
+.container_right h2 {
     color: white;
     background: rgb(97, 97, 212);
     margin-top: 0px;
 }
 .codeName {
-    clear: left;
     height: 100px;
     background: pink;
 }
