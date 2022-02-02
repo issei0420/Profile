@@ -1,39 +1,56 @@
-<link rel="stylesheet" href="style.css">
-
-<div class="container_left">
-    <div class="my_image">
-        <img src="my_image.jpg">
+<? $this->headLink()->appendStylesheet('/css/default/profile.css'); ?>
+<div class="profile_all">
+    <div class="profile_top">
+        <h1>齋木　一晴 / イッセイ<img src="/images/profile/onigiri.png"></h1>
     </div>
-    <div class="codeName">
-        codename : <span>イッセイおにぎり</span>
+    <div class="profile_middle">
+        <div class="middle_left">
+            <img src="/images/profile/my_image.jpg">
+        </div>
+        <div class="middle_right">
+            <div class="profile_status">
+                <p>
+                    <span class="_column">出身地</span>
+                    <span class="value">東京都品川区大井町</span>
+                </p>
+                <p>
+                    <span class="_column">学歴</span>
+                    <span class="value">国際基督教大学　教養学部　アーツ・サイエンス学科</span>
+                </p>
+                <p>
+                    <span class="_column">生年月日</span>
+                    <span class="value">2000/4/20</span>
+                </p>
+                <p>
+                    <span class="_column">特技</span>
+                    <span class="value">アイスホッケー</span>
+                </p>
+                <p>
+                    <span class="_column">趣味</span>
+                    <span class="value">ギター、作曲</span>
+                </p>
+            </div>
+        </div>
     </div>
-</div>
-<div class="container_right">
-    <h2>Profile</h1>
-    <div class="profile_content">
-        <p>
-            <span class="_column">本名</span>
-            <span class="myName">齋木　一晴　Issei Saiki</span>
-        </p>
-        <p>
-            <span class="_column">出身地</span>
-            <span class="birthPlace">東京都品川区</span>
-        </p>
-        <p>
-            <span class="_column">学歴</span>
-            <span class="education">国際基督教大学　教養学部</span>
-        </p>
-        <p>
-            <span class="_column">生年月日</span>
-            <span class="birthDate">2000/4/20</span>
-        </p>
+    <div class="profile_bottom">
+        <div class="bottom_left">
+            <img src="/images/profile/hockey.jpg">
+            <img src="/images/profile/guitars.jpg">
+            <img src="/images/profile/miku.jpg">
+        </div>
+        <div class="bottom_right">
+            <p class="sentences1">６歳からアイスホッケーに熱中。<br>
+                慶應義塾高校のアイスホッケー部に入り、インターハイベスト８まで行きました。<br>
+                キーパーでした('ω')
+            </p>
+            <p class="sentences2">大学に入ってからは楽器を弾くようになりました。<br>
+                子供のころ習っていたクラシックギターに加え、アコギやエレキ、ベースにも挑戦。<br>
+                アコギとエレキは親から譲り受けた( ;∀;)
+            </p>
+            <p class="sentences3">それから少しずつ自分で曲を作るようになり、<br>
+                ボカロを使った曲をYoutubeやInstagramにアップするように...<br>
+                パソコンで作曲をするうちにソフトウェアやプログラムに興味をもつようになった(>_<)
+            </p>
+        </div>
     </div>
-    <div class="_image">
-        <img src="onigiri.png">
-    </div>
-    <p class="sentences">大学２年次から少しずつプログラミングを学び始める。<br>
-        いえらぶブートキャンプで一人前のエンジニアへの第一歩を踏み出したい。<br>
-        高校までずっとアイスホッケーをやっていて得意。<br>
-        大学1年生のころはギターや作曲に挑戦していた。<br>
-    </p>
 </div>
